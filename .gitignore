@@ -1,0 +1,11 @@
+node_modules/
+*.apk
+.env
+.env.*
+!.env.example
+artifacts/
+coverage/
+allure-results/
+*.log
+.DS_Store
+Thumbs.db
