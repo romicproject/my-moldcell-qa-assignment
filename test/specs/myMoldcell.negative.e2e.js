@@ -14,7 +14,7 @@ describe('My Moldcell negative scenarios', () => {
         await loginPage.loginButton.click()
 
         await expect(
-        await loginPage.phoneOrEmailInput.getAttribute('text')
+            await loginPage.phoneOrEmailInput.getAttribute('text')
         ).toBe('123')
 
         await expect(
