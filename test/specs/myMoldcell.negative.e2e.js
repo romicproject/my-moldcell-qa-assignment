@@ -9,10 +9,20 @@ describe('My Moldcell negative scenarios', () => {
         await loginPage.phoneOrEmailInput.clearValue()
         await loginPage.phoneOrEmailInput.setValue('123')
         await loginPage.passwordInput.setValue('NotARealPassword123!')
+
         await browser.hideKeyboard()
         await loginPage.loginButton.click()
 
-        await expect(await loginPage.phoneOrEmailInput.getAttribute('text')).toBe('123')
-        await expect(loginPage.usernameValidationMessage).toBeDisplayed()
+        await expect(
+        await loginPage.phoneOrEmailInput.getAttribute('text')
+        ).toBe('123')
+
+        await expect(
+            loginPage.usernameValidationMessage
+        ).toBeDisplayed()
+
+        const validationText = await loginPage.usernameValidationMessage.getText()
+
+        expect(validationText).toContain('Numele de utilizator')
     })
 })
