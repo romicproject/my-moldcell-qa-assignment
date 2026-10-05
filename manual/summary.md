@@ -5,7 +5,7 @@
 - Device: Realme 6
 - Android: 11
 - Application: my moldcell
-- App version: [fill in before submission]
+- App version: 1.43.1 (12524)
 - Access: No active Moldcell number
 
 ## What was tested
