@@ -3,7 +3,7 @@
 **Application:** my moldcell  
 **Device:** Realme 6  
 **Android:** 11  
-**App version:** [fill in before submission]  
+**App version:** 1.43.1 (12524)  
 **Access limitation:** No active Moldcell number
 
 | ID | Check | Priority | Result | Comment |
