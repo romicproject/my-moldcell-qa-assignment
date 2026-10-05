@@ -10,7 +10,7 @@
 - Device: Realme 6
 - Android: 11
 - Application: my moldcell
-- App version: [fill in before submission]
+- App version: 1.43.1 (12524)
 - Initial language: Romanian
 - Selected language: English
 
@@ -47,8 +47,6 @@ Reproducible.
 
 ### Evidence
 
-Add screenshot before submission, for example:
-
 `evidence/BUG-01_online-shop-language.png`
 
 ---
@@ -63,7 +61,7 @@ Add screenshot before submission, for example:
 - Device: Realme 6
 - Android: 11
 - Application: my moldcell
-- App version: [fill in before submission]
+- App version: 1.43.1 (12524)
 - Registration method: Email
 
 ### Preconditions
@@ -96,7 +94,5 @@ Once the email address is corrected to a valid value, the validation error state
 Reproducible.
 
 ### Evidence
-
-Add screenshot before submission, for example:
 
 `evidence/BUG-02_email-validation-state.png`
