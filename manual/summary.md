@@ -62,7 +62,8 @@ I would focus first on the areas where testing already showed higher risk:
 
 ## Time spent
 
-- Manual testing: [fill in actual time]
-- Automation: [fill in actual time]
-- Report/documentation: [fill in actual time]
-- Total: [fill in actual time]
+- Manual testing: 120 min
+- Automation: ~ 180 min
+  Automation took longer than planned mainly due to environment and stability troubleshooting. I had limited previous hands-on experience with Appium/WebdriverIO, and part of the time was spent resolving Appium port/process    conflicts, stabilizing application startup between sessions, improving selectors and assertions, and rerunning the suite to verify that both scenarios were reliable.
+- Report/documentation: 20 min
+- Total: 320 min
